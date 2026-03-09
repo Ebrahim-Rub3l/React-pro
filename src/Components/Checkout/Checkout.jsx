@@ -1,7 +1,7 @@
 import React from 'react'
 import { GoCheck } from "react-icons/go";
 import monitr from '../../assets/images/monitr.png'
-import con from '../../assets/images/con.png'
+// import con from '../../assets/images/con.png'
 import bkash from '../../assets/images/Bkash.png'
 import visa from '../../assets/images/Visa.png'
 import mastercard from '../../assets/images/Mastercard.png'
