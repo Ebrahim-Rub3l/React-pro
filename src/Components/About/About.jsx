@@ -73,7 +73,7 @@ const About = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="grid grid-cols-3 gap-[88px] mb-[140px]">
+                                <div className="grid grid-cols-3 gap-[70px] mb-[140px]">
                                                     <div className='w-[370] h-[430]'>
                                                         <div className='bg-[#F5F5F5] px-[67px] pt-[39px]   mx-auto'>
                                                             <img className="w-full" src={chobi2} alt="" />
