@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import monitr from '../../assets/images/monitr.png'
-import con from '../../assets/images/con.png'
+// import con from '../../assets/images/con.png'
 import { BiChevronUp } from "react-icons/bi";
 import { BiChevronDown } from "react-icons/bi";
 import { IoIosCloseCircle } from "react-icons/io";
