@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+
+
+.container {
+  @apply max-w-[1170px] mx-auto
+}
+
+
+@theme {
+  --font-poppin: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif; 
+}
+.slick-dots li button {
+   
+    width: 12px!important;
+    height: 12px!important;
+    background: #DB4444!important;
+    border-radius: 50%;
+    position: relative;
+}
+.slick-dots li button:before {
+   
+    color: transparent!important;
+    
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff!important;
+}
+
+.slick-dots li.slick-active button::before {
+  width: 10px!important;
+  height: 10px!important;
+  background: #DB4444!important;
+  border-radius: 50%;
+  top : 50%!important;
+  left : 50%!important ;
+  transform: translate(-50%,-50%)!important;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -3px!important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+
+.menu li a , .cate a  {
+  @apply font-poppin text-black text-[16px] font-normal leading-6 relative
+}
+
+.menu li a::after {
+  @apply absolute content-[''] w-0 h-[1px] bg-[#000000] bottom-[-5px] left-0 duration-500
+}
+
+.menu li a:hover::after{
+  @apply w-full
+}
+
+.agree input[type='checkbox']:checked + label span{
+  color : white ;
+}
+
+.pay input[type='radio']:checked + label span{
+  background-color: #000;
+  box-shadow: 0px 0px 0px 4px white inset;
+}
+
+.colors input[type='radio']:checked + label span{
+  border: 2px solid #000;
+  box-shadow: 0px 0px 0px 2px white inset;
+}
+
+.Sizes input[type='radio']:checked + label span{
+  border-color: #DB4444;
+  background-color: #DB4444;
+  color: #fff;
+}
+
+.men  {background: linear-gradient(
+  135deg,
+  #8E8589 0%,
+  #5A4F5C 40%,
+  #2C2430 100%
+);}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.pagination li {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+}
+
+.swiper-button-lock {
+     display: none; 
+}
