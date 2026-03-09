@@ -92,7 +92,7 @@ const About = () => {
                                                     </div>
                                                      <div className='w-[370] h-[430]'>
                                                         <div className='bg-[#F5F5F5] px-[67px] pt-[39px]  mx-auto'>
-                                                            <img  src={chobi2} alt="" />
+                                                            <img  className="w-full" src={chobi2} alt="" />
                                                         </div>
                                                         <div className="">
                                                             <h3 className='text-[32px] pt-8 pb-2 font-inter font-bold leading-[30px] text-black '>Tom Cruise</h3>
@@ -108,7 +108,7 @@ const About = () => {
                                                     </div>
                                                      <div className=''>
                                                         <div className='bg-[#F5F5F5] px-[67px] pt-[39px]  mx-auto'>
-                                                            <img src={chobi2} alt="" />
+                                                            <img className="w-full" src={chobi2} alt="" />
                                                         </div>
                                                         <div className="">
                                                             <h3 className='text-[32px] pt-8 pb-2 font-inter font-bold leading-[30px] text-black '>Tom Cruise</h3>
